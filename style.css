@@ -1,10 +1,30 @@
 #tombouy {
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
     text-align: center;
-    background-color: beige;
+    background-color: black;
+    color: white;
+    padding: 10%;
 }
 
 #bio{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.content{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 16px auto;
+    padding: 12px 8px;
+    border: 59px;
+    border-color: red;
 }
