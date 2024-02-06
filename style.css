@@ -1,30 +1,65 @@
-#tombouy {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 10%;
-}
-
-#bio{
+.container-one,
+.container-two{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    color: #f9faf8;
 }
 
-.link{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+.container-one{
+    padding: 16px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    
 }
 
-.content{
+.header{
+    padding-left: 100px;
+}
+
+.brand{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.signup{
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: #f9faf8;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+
+}
+
+.right-side{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 12px;
+    padding-right: 100px;
+    list-style: none;
+}
+
+
+
+.container-two{
+    display: flex;
+    padding-left: 118px;
+    padding-bottom: 100px;
+}
+
+.banner{
     width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: black;
-    color: white;
-    text-align: center;
-    margin: 16px auto;
-    padding: 12px 8px;
-    border: 59px;
-    border-color: red;
 }
+
