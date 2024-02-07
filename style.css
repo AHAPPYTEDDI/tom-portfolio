@@ -197,6 +197,10 @@ ul {
     font-weight: lighter;
 }
 
+/*Sign up prompt ENDS*/
+
+/* Footer */
+
 .footer{
     font-family: Arial, Helvetica, sans-serif;
     color: #e5e7eb;
@@ -209,6 +213,6 @@ ul {
 .footer-text{
     display: flex;
     align-self: center;
-    
 }
 
+/* Footer ENDS */
