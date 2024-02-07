@@ -1,27 +1,33 @@
 .container-one,
-.container-two{
-    background-color: #1F2937;
+.container-two,
+.container-three{
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #f9faf8;
 }
 
+/* Header bar & Banner information */
+
 .container-one{
+    background-color: #1f2937;
     padding: 16px;
-    justify-content: space-between;
-    padding-bottom: 50px;
-    
+    justify-content: space-between; 
 }
 
 .header{
     padding-left: 100px;
 }
 
+.banner-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+
 .brand{
     padding: 0;
     margin: 0;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -33,7 +39,6 @@
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 8px;
-
 }
 
 .right-side{
@@ -51,15 +56,89 @@ ul {
     list-style: none;
 }
 
+/* Header bar ENDS */
 
+/* Banner Information */
 
 .container-two{
+    background-color: #1f2937;
     display: flex;
     padding-left: 118px;
-    padding-bottom: 100px;
+    height: 400px;
 }
 
 .banner{
-    width: 300px;
+    width: 400px;
 }
 
+/* Banner Information ENDS */
+
+
+/* Display */
+
+.container-three{
+    display: flex;
+    text-align: center;
+    height: 400px;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.header-two{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.container-3-child{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.descriptons{
+    padding: 10px;
+}
+
+.container-four{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+.testimonial-text{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+}
+
+.testimonial{
+    display: flex;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.name{
+    display: flex;
+    align-self: flex-end;
+    padding-right: 20px;
+
+}
+
+/* Display ENDS */
